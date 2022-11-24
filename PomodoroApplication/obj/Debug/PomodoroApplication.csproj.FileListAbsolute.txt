@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\bin\Debug\PomodoroApplication.exe.config
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\bin\Debug\PomodoroApplication.exe
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\bin\Debug\PomodoroApplication.pdb
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\obj\Debug\PomodoroApplication.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\obj\Debug\PomodoroApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\obj\Debug\PomodoroApplication.Form1.resources
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\obj\Debug\PomodoroApplication.Properties.Resources.resources
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\obj\Debug\PomodoroApplication.csproj.GenerateResource.cache
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\obj\Debug\PomodoroApplication.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\obj\Debug\PomodoroApplication.exe
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\obj\Debug\PomodoroApplication.pdb
