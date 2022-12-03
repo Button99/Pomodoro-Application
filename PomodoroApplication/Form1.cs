@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,8 +13,10 @@ namespace PomodoroApplication
 {
     public partial class Form1 : Form
     {
+        // TODO::Create Rest Mech.
         int seconds;
-        Boolean hasElapsed = true;
+        private String wavFile = "C:\\Users\\User\\source\\repos\\PomodoroApplication\\PomodoroApplication\\Properties\\FinishAlarm.wav";
+        Boolean hasElapsed = true, silentMode= true;
         Boolean flag = false;
         public Form1()
         {
@@ -50,6 +53,10 @@ namespace PomodoroApplication
                     {
                         timer1.Stop();
                         timerLabel.Text = "Time finished";
+                        if(silentMode == true) {
+                            SoundPlayer sp = new SoundPlayer(wavFile);
+                            sp.PlaySync();
+                        }
                         hasElapsed = true;
                         timeField.Enabled = true;
                         MessageBox.Show("Time has elapsed!");
@@ -63,6 +70,20 @@ namespace PomodoroApplication
             timerLabel.Text = "000";
             hasElapsed = true;
             timeField.Enabled = true;
+        }
+        // Silent mode
+        private void SM_Click(object sender, EventArgs e)
+        {
+            silentMode = !silentMode;
+            if(silentMode == true)
+            {
+                SM.Text = "Silent mode: On";
+
+            }
+            else
+            {
+                SM.Text = "Silent mode: Off";
+            }
         }
     }
 }

@@ -9,3 +9,7 @@ C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\obj\Debug\Pom
 C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\obj\Debug\PomodoroApplication.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\obj\Debug\PomodoroApplication.exe
 C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\obj\Debug\PomodoroApplication.pdb
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\bin\Debug\PomodoroApplication.exe.manifest
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\bin\Debug\PomodoroApplication.application
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\obj\Debug\PomodoroApplication.exe.manifest
+C:\Users\User\source\repos\PomodoroApplication\PomodoroApplication\obj\Debug\PomodoroApplication.application

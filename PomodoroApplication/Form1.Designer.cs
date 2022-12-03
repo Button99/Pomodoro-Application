@@ -38,6 +38,7 @@ namespace PomodoroApplication
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.Minutes = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.SM = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // timerLabel
@@ -56,7 +57,7 @@ namespace PomodoroApplication
             // 
             this.startButton.Location = new System.Drawing.Point(44, 246);
             this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(210, 63);
+            this.startButton.Size = new System.Drawing.Size(210, 44);
             this.startButton.TabIndex = 1;
             this.startButton.Text = "Start";
             this.startButton.UseVisualStyleBackColor = true;
@@ -66,7 +67,7 @@ namespace PomodoroApplication
             // 
             this.stopButton.Location = new System.Drawing.Point(466, 246);
             this.stopButton.Name = "stopButton";
-            this.stopButton.Size = new System.Drawing.Size(210, 63);
+            this.stopButton.Size = new System.Drawing.Size(210, 44);
             this.stopButton.TabIndex = 2;
             this.stopButton.Text = "Stop";
             this.stopButton.UseVisualStyleBackColor = true;
@@ -95,19 +96,30 @@ namespace PomodoroApplication
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(253, 337);
+            this.button2.Location = new System.Drawing.Point(244, 362);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(223, 63);
+            this.button2.Size = new System.Drawing.Size(223, 45);
             this.button2.TabIndex = 6;
             this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.resetBtn_Click);
+            // 
+            // SM
+            // 
+            this.SM.Location = new System.Drawing.Point(621, 34);
+            this.SM.Name = "SM";
+            this.SM.Size = new System.Drawing.Size(134, 23);
+            this.SM.TabIndex = 7;
+            this.SM.Text = "Silent Mode: On";
+            this.SM.UseVisualStyleBackColor = true;
+            this.SM.Click += new System.EventHandler(this.SM_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.SM);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.Minutes);
             this.Controls.Add(this.timeField);
@@ -130,6 +142,7 @@ namespace PomodoroApplication
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label Minutes;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button SM;
     }
 }
 
