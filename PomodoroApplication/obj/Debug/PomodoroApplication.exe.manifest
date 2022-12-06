@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PomodoroApplication.exe" size="111576">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PomodoroApplication.exe" size="112088">
       <assemblyIdentity name="PomodoroApplication" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>oTho0i1R/T1+3Xwlda4XJorQjEZnwSLOwGG/t8QqqiM=</dsig:DigestValue>
+        <dsig:DigestValue>VojJ4Qr9BEWK1C9nscExrG1tA7FhIQTFDsICrAFV0wc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

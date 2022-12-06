@@ -31,7 +31,7 @@ namespace PomodoroApplication
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.timerLabel = new System.Windows.Forms.Label();
+            this.secondsLabel = new System.Windows.Forms.Label();
             this.startButton = new System.Windows.Forms.Button();
             this.stopButton = new System.Windows.Forms.Button();
             this.timeField = new System.Windows.Forms.TextBox();
@@ -39,19 +39,21 @@ namespace PomodoroApplication
             this.Minutes = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.SM = new System.Windows.Forms.Button();
+            this.minutesLabel = new System.Windows.Forms.Label();
+            this.hoursLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // timerLabel
+            // secondsLabel
             // 
-            this.timerLabel.AutoSize = true;
-            this.timerLabel.Location = new System.Drawing.Point(356, 89);
-            this.timerLabel.Margin = new System.Windows.Forms.Padding(35, 0, 35, 0);
-            this.timerLabel.MaximumSize = new System.Drawing.Size(50, 50);
-            this.timerLabel.Name = "timerLabel";
-            this.timerLabel.Size = new System.Drawing.Size(25, 13);
-            this.timerLabel.TabIndex = 0;
-            this.timerLabel.Tag = "";
-            this.timerLabel.Text = "000";
+            this.secondsLabel.AutoSize = true;
+            this.secondsLabel.Location = new System.Drawing.Point(388, 92);
+            this.secondsLabel.Margin = new System.Windows.Forms.Padding(35, 0, 35, 0);
+            this.secondsLabel.MaximumSize = new System.Drawing.Size(50, 50);
+            this.secondsLabel.Name = "secondsLabel";
+            this.secondsLabel.Size = new System.Drawing.Size(19, 13);
+            this.secondsLabel.TabIndex = 0;
+            this.secondsLabel.Tag = "";
+            this.secondsLabel.Text = "00";
             // 
             // startButton
             // 
@@ -114,18 +116,38 @@ namespace PomodoroApplication
             this.SM.UseVisualStyleBackColor = true;
             this.SM.Click += new System.EventHandler(this.SM_Click);
             // 
+            // minutesLabel
+            // 
+            this.minutesLabel.AutoSize = true;
+            this.minutesLabel.Location = new System.Drawing.Point(353, 92);
+            this.minutesLabel.Name = "minutesLabel";
+            this.minutesLabel.Size = new System.Drawing.Size(19, 13);
+            this.minutesLabel.TabIndex = 8;
+            this.minutesLabel.Text = "00";
+            // 
+            // hoursLabel
+            // 
+            this.hoursLabel.AutoSize = true;
+            this.hoursLabel.Location = new System.Drawing.Point(310, 92);
+            this.hoursLabel.Name = "hoursLabel";
+            this.hoursLabel.Size = new System.Drawing.Size(19, 13);
+            this.hoursLabel.TabIndex = 9;
+            this.hoursLabel.Text = "00";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.hoursLabel);
+            this.Controls.Add(this.minutesLabel);
             this.Controls.Add(this.SM);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.Minutes);
             this.Controls.Add(this.timeField);
             this.Controls.Add(this.stopButton);
             this.Controls.Add(this.startButton);
-            this.Controls.Add(this.timerLabel);
+            this.Controls.Add(this.secondsLabel);
             this.Name = "Form1";
             this.Text = "Pomodoro";
             this.ResumeLayout(false);
@@ -135,7 +157,7 @@ namespace PomodoroApplication
 
         #endregion
 
-        private System.Windows.Forms.Label timerLabel;
+        private System.Windows.Forms.Label secondsLabel;
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.Button stopButton;
         private System.Windows.Forms.TextBox timeField;
@@ -143,6 +165,8 @@ namespace PomodoroApplication
         private System.Windows.Forms.Label Minutes;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button SM;
+        private System.Windows.Forms.Label minutesLabel;
+        private System.Windows.Forms.Label hoursLabel;
     }
 }
 
